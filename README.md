@@ -17,6 +17,7 @@ This project leverages deep learning (CNN models) to automate TB detection from 
 * Format: DICOM/JPEG
 
 * Resolution: 512×512 (resized to 224×224 for model input)
+![chest](https://github.com/ahanspaschal/Innovative-approach-to-tuberculosis-detection-using-deep-learning/blob/main/chest.png)
 
 ### 🛠 Preprocessing Pipeline
 * Resizing & Normalization
@@ -37,11 +38,7 @@ This project leverages deep learning (CNN models) to automate TB detection from 
 * 20% Testing (840 images)
 
 ## 🤖 Deep Learning Models Evaluated
-Model	Architecture Highlights	Key Strengths
-VGG16	16-layer CNN, 3×3 convolutions	Simple, sequential design
-ResNet50	50-layer, residual connections	Solves vanishing gradients
-InceptionV3	Parallel convolutions, multi-scale filters	Captures complex patterns (e.g., miliary TB)
-DenseNet121	Dense skip connections, feature reuse	Best for subtle TB manifestations (e.g., pleural effusions)
+![models](https://github.com/ahanspaschal/Innovative-approach-to-tuberculosis-detection-using-deep-learning/blob/main/models.png)
 
 ### ⚙️ Training Configuration
 * Optimizer: Adam (lr=0.001)
@@ -67,17 +64,14 @@ Actual Normal	823	17
 Actual TB	4	136
 
 ## 📈 Comparative Analysis
-Model	Accuracy	Precision (TB)	Recall (TB)	F1-Score (TB)
-DenseNet121	98.0%	0.92	0.97	0.94
-InceptionV3	97.2%	0.90	0.94	0.92
-VGG16	93.8%	0.64	0.89	0.74
-ResNet50	84.4%	0.40	0.04	0.08
+![comparative](https://github.com/ahanspaschal/Innovative-approach-to-tuberculosis-detection-using-deep-learning/blob/main/comparative.png)
 
 ## 💡 Key Insight:
 
 * DenseNet121 outperformed others due to feature reuse via dense skip connections, crucial for detecting small TB opacities.
 
 * ResNet50 failed on TB cases (only 4% recall) due to poor residual mapping during training.
+![accuracy](https://github.com/ahanspaschal/Innovative-approach-to-tuberculosis-detection-using-deep-learning/blob/main/accuracy.png)
 
 🌍 Real-World Impact & Applications
 ✅ Early Detection: Reduces diagnostic delays (critical for TB control).
