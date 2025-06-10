@@ -7,7 +7,7 @@ This project leverages deep learning (CNN models) to automate TB detection from 
 ## 🔍 Key Features & Technical Details
 ### 📂 Dataset
 * Source: Publicly available medical imaging repositories
--<a href="https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset/data>Dataset</a>
+-<a href="https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset/data">Dataset</a>
 
 * Size: 4,200 chest X-rays (CXR)
 
