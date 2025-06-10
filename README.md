@@ -101,5 +101,9 @@ Google Colab (GPU acceleration)
 Weights & Biases (W&B) (Experiment tracking)
 
 
+## Thank You.
+For more information or collaboration I can be reached via e-mail or linkedin.
+
+
 
 
