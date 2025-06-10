@@ -73,10 +73,10 @@ Actual TB	4	136
 * ResNet50 failed on TB cases (only 4% recall) due to poor residual mapping during training.
 ![accuracy](https://github.com/ahanspaschal/Innovative-approach-to-tuberculosis-detection-using-deep-learning/blob/main/accuracy.png)
 
-🌍 Real-World Impact & Applications
-✅ Early Detection: Reduces diagnostic delays (critical for TB control).
-✅ Cost-Effective: No need for expensive lab equipment.
-✅ Scalable: Can be deployed in mobile clinics or telemedicine platforms.
+### 🌍 Real-World Impact & Applications
+* ✅ Early Detection: Reduces diagnostic delays (critical for TB control).
+* ✅ Cost-Effective: No need for expensive lab equipment.
+* ✅ Scalable: Can be deployed in mobile clinics or telemedicine platforms.
 
 Example Use Case:
 
